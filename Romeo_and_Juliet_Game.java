@@ -5,7 +5,7 @@ public class Romeo_and_Juliet_Game {
     private static final int ENV_SIZE = 8;
     private static  int NUM_SOL = 2;
     private static final int NUM_ARROWS = 5;
-    private static final int JULIET_LOCATION = (int) (Math.random()*(27))+4;
+    private static final int JULIET_LOCATION = (int) (Math.random()*(60-16+1))+16;
 
     private static final int ROMEO_START = 0;
 
