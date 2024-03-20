@@ -123,7 +123,7 @@ public class Romeo_and_Juliet_Game {
                 break;
             case 5: // Shoot arrow
             for(int soldier:soldierLocations){
-            if(romeoLocation==soldier-2 || romeoLocation==soldier+2||romeoLocation==soldier-9 || romeoLocation==soldier+9){
+            if(romeoLocation==soldier-2 || romeoLocation==soldier+2||romeoLocation==soldier-16 || romeoLocation==soldier+16){
                  if (arrowsLeft > 0 ) {
                     arrowsLeft--;
                     NUM_SOL--;
